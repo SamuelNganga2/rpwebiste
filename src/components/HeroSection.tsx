@@ -1,4 +1,5 @@
 import React from 'react'
+import RoyalPriesthood1 from '../assets/RoyalPriesthood1.png'
 
 interface HeroSectionProps {
   onNavigate: (page: string) => void
@@ -10,7 +11,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ onNavigate }) => {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img 
-          src="src/assets/RoyalPriesthood1.png" 
+          src={RoyalPriesthood1} 
           alt="Royal Priesthood logo" 
           className="w-full h-full object-cover"
           crossOrigin="anonymous"

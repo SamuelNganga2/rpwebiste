@@ -1,4 +1,5 @@
 import React from 'react'
+import rplogo1 from '../assets/rplogo1.png'
 
 const Footer: React.FC = () => {
   return (
@@ -9,7 +10,7 @@ const Footer: React.FC = () => {
           <div className="space-y-4">
             <div className="flex items-center space-x-3">
               <div className="w-10 h-10 bg-gradient-to-br from-secondary-500 to-secondary-600 rounded-full flex items-center justify-center">
-                <img src="src/assets/rplogo1.png" alt="rp logo" />
+                <img src={rplogo1} alt="rp logo" />
               </div>
               <h3 className="text-xl font-bold font-serif">Royal Priesthood Ministry</h3>
             </div>

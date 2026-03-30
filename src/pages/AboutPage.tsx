@@ -1,4 +1,5 @@
 import React from 'react'
+import pastor from '../assets/pastor.png'
 
 const AboutPage: React.FC = () => {
   return (
@@ -118,7 +119,7 @@ Acts 17:28</p>
 
             <div className="order-1 lg:order-2 text-center">
               <div className="relative inline-block">
-                <img src="src/assets/pastor.png" alt="Man of God" />
+                <img src={pastor} alt="Man of God" />
               </div>
               <p className="mt-6 text-lg font-semibold text-primary-800 dark:text-white">
                 "Possessing the Land of the Promise"

@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { useDarkMode } from '../contexts/DarkModeContext'
+import rplogo1 from '../assets/rplogo1.png'
 
 interface NavbarProps {
   currentPage: string
@@ -34,7 +35,7 @@ const Navbar: React.FC<NavbarProps> = ({ currentPage, onNavigate, discipleProgra
             onClick={() => handleNavClick('home')}
           >
             <div className="w-12 h-12 bg-gradient-to-br from-primary-500 to-spiritual-500 rounded-full flex items-center justify-center group-hover:scale-105 transition-transform duration-300">
-              <img src="src/assets/rplogo1.png" alt="" />
+              <img src={rplogo1} alt="" />
             </div>
             <div className="block">
               <h1 className="text-xl font-bold text-primary-800 dark:text-white font-serif">Royal Priesthood</h1>
